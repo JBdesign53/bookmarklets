@@ -1,25 +1,16 @@
-/*
-  Bookmarklet to load Javascript content from Gist api.
-  Paste this code into a browser bookmark.
-*/
-
 javascript:(function(){
-  let gistId = '6a421132a4bde57dfc66bd36332166e1';
-  let filename = 'bookmarklet-datto.js';
+  loadGithubJs();
 
-  loadGistJs(gistId, filename);
+  async function loadGithubJs(){
+    console.log('Load bookmarklet JS from Github...');
 
-  async function loadGistJs(gistId, filename){
-    console.log('Load bookmarklet from Gist...');
-
-    const res = await fetch(`https://api.github.com/gists/${gistId}`, {cache: 'no-cache'});
+    const res = await fetch(`https://raw.githubusercontent.com/JBdesign53/bookmarklets/main/datto/bookmarklet-load.js`, {cache: 'no-cache'});
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const code = data.files[filename].content;
+    const js = await res.text();
 
     /* Dynamic script element */
     const script = document.createElement('script');
-    script.textContent = code;
+    script.textContent = js;
     document.head.appendChild(script);
   }
 })();
