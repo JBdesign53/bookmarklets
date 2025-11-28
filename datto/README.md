@@ -8,11 +8,13 @@ It adds a new yellow button to the UI labelled 'Web Remote: Control Screens'. Th
 
 ## Prerequisites
 
-This bookmarklet creates multiple tabs. By default, this is turned off in your browser.
+Allow multiple tabs to be created when using this bookmarklet. By default, this is turned off in your browser.
 
 To enable this:
   1. Go to your browser Settings -> Security
-  2. 
+  2. Look for a Permissions section.
+  3. Locate Pop-Up blocking.
+  4. Add exceptions for: `http://rmm.datto.com` and `https://rmm.datto.com`.
 
 ## Bookmarklet Creation
 
@@ -30,3 +32,5 @@ From the Datto Devices screen:
   2. Select multiple devices from the checkboxes in the left column.
   3. Click the 'Web Remote: Control Screens' button.
   4. A tab will open for each selected device.
+
+Note that only selected devices which have a Web Remote button will open in a new tab.
