@@ -30,7 +30,7 @@ To enable multiple tab creation:
   2. Look for the Permissions section and Pop-Up blocking.
   3. Add exceptions for: `http://rmm.datto.com` and `https://rmm.datto.com`.
 
-![Firefox popup settings](datto-popup-settings-firefox.png)
+![Firefox popup settings](/img/datto/datto-popup-settings-firefox.png)
 
 ## Bookmarklet Creation
 
