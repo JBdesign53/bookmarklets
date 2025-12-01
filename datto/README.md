@@ -19,7 +19,7 @@ The image above outlines the steps to open multiple **_Web Remote_** tabs. These
   5. A new **_Control_** Screen tab will open for each device.
 
 > [!NOTE]
-> Only selected devices, with a **_Web Remote_** button, will open. (This is why Saranga's laptop ACSL-23-03 does not have a tab - it is offline, and possibly malevolent.)
+> Only selected devices, with a **_Web Remote_** button, will open. (This is why Saranga's laptop _ACSL-23-03_ does not have a tab - it is offline, and possibly malevolent.)
 
 ## Prerequisites
 
