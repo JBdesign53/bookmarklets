@@ -36,7 +36,7 @@ To enable multiple tab creation:
 Steps:
   1. Create a new bookmark/favourite in your web browser.
   2. Give it a name eg. **_Datto Devices_** or **_RSI Must Die_**.
-  3. For the URL, paste the [code from here](https://raw.githubusercontent.com/JBdesign53/bookmarklets/main/datto/bookmarklet-load.js)
+  3. For the bookmark URL, copy and paste the [code from here](https://raw.githubusercontent.com/JBdesign53/bookmarklets/main/datto/bookmarklet-load.js).
   4. Refer to the **Usage** section above.
 
 > [!TIP]
