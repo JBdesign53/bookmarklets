@@ -2,9 +2,9 @@
 
 ## About
 
-This bookmarklet allows multipls **Web Remote** tabs to be easily opened for devices in Datto RMM. When activated, a yellow button is added to the UI labelled **Web Remote: Control Screens** which opens a remote tab for each, selected device.
+This bookmarklet allows multipls **_Web Remote_** tabs to be easily opened for devices in Datto RMM. When activated, a yellow button is added to the UI labelled **_Web Remote: Control Screens_** which opens a remote tab for each, selected device.
 
-This removes the tedious task of manually clicking the **Web Remote** button and **Control Screen** option for each device. Which, let's be honest is a PITA, particularly for runup.
+This removes the tedious task of manually clicking the **_Web Remote_** button and **_Control Screen_** option for each device. Which, let's be honest is a PITA, particularly for runup.
 
 ## Usage
 
