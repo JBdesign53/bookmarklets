@@ -4,11 +4,11 @@
 
 This bookmarklet allows Web Remote (browser tabs) to be quickly opened for multiple devices in Datto RMM. This removes the need to click the Web Remote button and Control Screen option for each device.
 
-It adds a new yellow button to the UI labelled 'Web Remote: Control Screens'. This bookmarklet can be clicked (activated) on the Datto Devices screen.
+It adds a new yellow button to the UI labelled 'Web Remote: Control Screens'. This bookmarklet can be clicked (activated) from the Datto Devices screen.
 
 ## Steps
 
-![Datto web remote steps](/img/datto-remote-overview.png)
+![Datto web remote steps](/img/datto/datto-remote-overview.png)
 
 The image above shows the steps to open multiple web remote tabs. These steps are:
 
