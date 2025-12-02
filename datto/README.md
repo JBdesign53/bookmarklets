@@ -32,6 +32,8 @@ To enable multiple tab creation:
 
 ![Firefox popup settings](/img/datto/datto-popup-settings-firefox.png | width=300)
 
+<img src="/img/datto/datto-popup-settings-firefox.png" width="300">
+
 ## Bookmarklet Creation
 
 Steps:
