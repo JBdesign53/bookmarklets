@@ -42,7 +42,7 @@ function init(){
   Opens all checked, online devices.
 */
 function updateUi(){
-  console.log('Any', anyRowSelected());
+  //console.log('Any', anyRowSelected());
   
   var wrcsBtn = `<button id="wrcs" data-testid="tableToolbar_run-quick-job" class="ButtonStyled--w77dbz fPdmO" style="margin-left:6px; border:1px solid #f0b30c; border-radius:4px; background:#f0b30c;">
   <span>Web Remote: Control Screens</span>
