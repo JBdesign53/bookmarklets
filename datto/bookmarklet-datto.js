@@ -58,12 +58,21 @@ function updateUi(){
 function openRemoteScreens(){
   let webRemoteArr = [];
   let i, iMax, row, rowKey, rowName, url, window;
+  let userAgent = getUserAgent();
   
   $('tr.ant-table-row').each(function(i){
     // Selected rows which have a Web Remote button
     if( isRowChecked(this) && isDeviceOnline(this) ){
-      // Need to open new tabs in reverse order
-      webRemoteArr.unshift(this);
+      // Need to change the order of the array, depending on browser type, so new tabs open in ascending order
+      switch(userAgent){
+        case 'chrome':
+        case 'edge':
+          webRemoteArr.push(this);
+          break;
+        default:
+          webRemoteArr.unshift(this);
+          break;
+      }
     }
   });
   
@@ -120,4 +129,20 @@ function isDeviceOnline(row){
     return true; 
   }
   return false;
+}
+
+function getUserAgent(){
+  let ua = window.navigator.userAgent.toLowerCase();
+
+  if(ua.includes('edg')){
+    return 'edge';
+  }
+
+  if(ua.includes('chrome')){
+    return 'chrome';
+  }
+
+  if(ua.includes('firefox')){
+    return 'firefox';
+  }
 }
