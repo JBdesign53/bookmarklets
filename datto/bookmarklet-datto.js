@@ -59,6 +59,8 @@ function openRemoteScreens(){
   let webRemoteArr = [];
   let i, iMax, row, rowKey, rowName, url, window;
   let userAgent = getUserAgent();
+
+  console.log('User agent:', userAgent);
   
   $('tr.ant-table-row').each(function(i){
     // Selected rows which have a Web Remote button
