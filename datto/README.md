@@ -32,7 +32,7 @@ To enable multiple tab creation:
 
 | Edge Popup Settings | Firefox Popup Settings |
 | ------------- | ------------- |
-| <img alt="Edge popup settings" src="/img/datto/datto-popup-settings-edge.png" width="450px"> | <img alt="Firefox popup settings" src="/img/datto/datto-popup-settings-firefox.png" width="450px"> |
+| ![Edge popup settings](/img/datto/datto-popup-settings-edge.png) | ![img alt="Firefox popup settings](/img/datto/datto-popup-settings-firefox.png) |
 
 ## Bookmarklet Creation
 
